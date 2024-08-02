@@ -1,0 +1,11 @@
+navTop:
+[
+  it will include logo, search bar and some text.
+]
+
+padding:
+[
+  padding: 20px 50px
+  here, 20px will be applied on top and bottom and 
+  50px will be applied on left and right.
+]
