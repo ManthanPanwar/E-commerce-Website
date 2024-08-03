@@ -9,3 +9,15 @@ padding:
   here, 20px will be applied on top and bottom and 
   50px will be applied on left and right.
 ]
+
+Emmet Shortcut in CSS:
+[
+  mr20 ==> margin-right: 20px
+  jcsb ==> justify-content: space-between
+  and many more......
+]
+
+clip path website:
+[
+  it is used to create polygons and can be implement in CSS to see on our website.
+]
