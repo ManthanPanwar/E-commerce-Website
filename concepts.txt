@@ -21,3 +21,7 @@ clip path website:
 [
   it is used to create polygons and can be implement in CSS to see on our website.
 ]
+
+[
+  overflow: hidden; --> if there is overflow, it will hide it(removes screen scroller from the bottom).
+]
