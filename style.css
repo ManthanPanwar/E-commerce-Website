@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Lato", sans-serif;
   /*There is by-default padding and margin, so lets remove it*/
@@ -199,6 +203,92 @@ nav {
   background-color: whitesmoke;
   position: relative;
   clip-path: polygon(0 8%, 100% 0, 100% 100%, 0 100%);
+}
+
+.payment {
+  width: 500px;
+  height: 500px;
+  background-color: white;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin: auto;
+  padding: 10px 54px;
+  /* display: flex; */
+  display: none;
+  flex-direction: column;
+  -webkit-box-shadow: 1px 4px 29px 3px rgba(0, 0, 0, 0.82);
+  box-shadow: 1px 4px 29px 3px rgba(0, 0, 0, 0.82);
+}
+
+.payTitle {
+  font-size: 20px;
+  color: rgb(184, 184, 184);
+}
+
+label {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.payInput {
+  padding: 10px;
+  margin: 10px 0px;
+  border: none;
+  border-bottom: 1px solid gray;
+}
+
+.payInput::placeholder {
+  color: rgb(150, 150, 150);
+}
+
+.cardIcons {
+  display: flex;
+}
+
+.cardIcon {
+  margin-right: 10px;
+}
+
+.cardInfo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sm {
+  width: 20%;
+}
+
+.payButton {
+  position: absolute;
+  /* bottom: 0; at last */
+  bottom: -40px;
+  height: 40px;
+  width: 100%;
+  left: 0;
+  -webkit-box-shadow: 0px 0px -10px 1px rgba(0, 0, 0, 0.82);
+  box-shadow: 0px 0px -10px 1px rgba(0, 0, 0, 0.82);
+  background-color: #369e62;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.close {
+  position: absolute;
+  background-color: black;
+  color: white;
+  width: 20px;
+  height: 20px;
+  top: 10px;
+  right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+  cursor: pointer;
 }
 
 .productImg {

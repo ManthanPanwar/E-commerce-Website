@@ -51,7 +51,7 @@
             SEASON
           </h1>
           <h2 class="sliderPrice">$119</h2>
-          <button class="buyButton">BUY NOW!</button>
+          <a href="#product"><button class="buyButton">BUY NOW!</button></a>
         </div>
         <div class="sliderItem">
           <img src="images/jordan.png" alt="airJorden1" class="sliderImg" />
@@ -62,7 +62,7 @@
             SEASON
           </h1>
           <h2 class="sliderPrice">$119</h2>
-          <button class="buyButton">BUY NOW!</button>
+          <a href="#product"><button class="buyButton">BUY NOW!</button></a>
         </div>
         <div class="sliderItem">
           <img src="images/blazer.png" alt="blazer" class="sliderImg" />
@@ -73,7 +73,7 @@
             SEASON
           </h1>
           <h2 class="sliderPrice">$139</h2>
-          <button class="buyButton">BUY NOW!</button>
+          <a href="#product"><button class="buyButton">BUY NOW!</button></a>
         </div>
         <div class="sliderItem">
           <img src="images/crater.png" alt="crater" class="sliderImg" />
@@ -84,7 +84,7 @@
             SEASON
           </h1>
           <h2 class="sliderPrice">$149</h2>
-          <button class="buyButton">BUY NOW!</button>
+          <a href="#product"><button class="buyButton">BUY NOW!</button></a>
         </div>
         <div class="sliderItem">
           <img src="images/hippie.png" alt="hippie" class="sliderImg" />
@@ -95,39 +95,39 @@
             SEASON
           </h1>
           <h2 class="sliderPrice">$99</h2>
-          <button class="buyButton">BUY NOW!</button>
+          <a href="#product"><button class="buyButton">BUY NOW!</button></a>
         </div>
       </div>
     </div>
     <div class="features">
       <div class="feature">
-        <img src="/images/shipping.png" alt="" class="featureIcon" />
+        <img src="images/shipping.png" alt="" class="featureIcon" />
         <div class="featureTitle">FREE SHIPPING</div>
         <span class="featureDesc">Free WorldWide shipping on all orders.</span>
       </div>
       <div class="feature">
-        <img src="/images/return.png" alt="" class="featureIcon" />
+        <img src="images/return.png" alt="" class="featureIcon" />
         <div class="featureTitle">30 DAYS RETURN</div>
         <span class="featureDesc"
           >No question return and easy refund in 14 days.</span
         >
       </div>
       <div class="feature">
-        <img src="/images/gift.png" alt="" class="featureIcon" />
+        <img src="images/gift.png" alt="" class="featureIcon" />
         <div class="featureTitle">GIFT CARDS</div>
         <span class="featureDesc"
           >Buy gift cards and use coupon codes easily.</span
         >
       </div>
       <div class="feature">
-        <img src="/images/contact.png" alt="" class="featureIcon" />
+        <img src="images/contact.png" alt="" class="featureIcon" />
         <div class="featureTitle">CONTACT US!</div>
         <span class="featureDesc"
           >Keep in touch via email and support system.</span
         >
       </div>
     </div>
-    <div class="product">
+    <div class="product" id="product">
       <img src="images/air.png" alt="" class="productImg" />
       <div class="productDetails">
         <h1 class="productTitle">AIR FORCE</h1>
@@ -148,6 +148,48 @@
           <div class="size">44</div>
         </div>
         <button class="productButton">BUY NOW!</button>
+      </div>
+      <div class="payment">
+        <h1 class="payTitle">Personal Information</h1>
+        <label>Name and Surname</label>
+        <input
+          type="text"
+          name="username"
+          class="payInput"
+          placeholder="Manthan"
+        />
+        <label>Phone Number </label>
+        <input
+          type="text"
+          name="phoneNumber"
+          class="payInput"
+          placeholder="+91 23452 23466"
+        />
+        <label>Address</label>
+        <input
+          type="text"
+          name="address"
+          class="payInput"
+          placeholder="C-122, shastri colony"
+        />
+        <h1 class="payTitle">Card Information</h1>
+        <div class="cardIcons">
+          <img src="images/visa.png" width="40" alt="visa" class="cardIcon" />
+          <img
+            src="images/master.png"
+            width="40"
+            alt="master"
+            class="cardIcon"
+          />
+        </div>
+        <input type="password" class="payInput" placeholder="Card Number" />
+        <div class="cardInfo">
+          <input type="text" class="payInput sm" placeholder="mm" />
+          <input type="text" class="payInput sm" placeholder="yyyy" />
+          <input type="text" class="payInput sm" placeholder="cvv" />
+        </div>
+        <button class="payButton">CheckOut!!</button>
+        <span class="close">X</span>
       </div>
     </div>
     <script src="app.js"></script>
